@@ -11,9 +11,22 @@ class MyClass {
     
 //Create Method or Function Void
     func myVoidType() -> Void {
-        print("นี่ึืคือ เมธอด Void")
+        print("นี่คือ เมธอด Void")
     }
-
+    
+    // Method Return Type
+    func myReturnType() -> Int {
+     var intResult = intNumber * 5
+        return intResult
+        
+    }
+   
+    // Method แบบ Arg & Return
+    func myOfficer(strTitle: String, strdetail: String) -> String {
+        let strOfficer = strTitle + " " + strName + " " + strdetail
+        return strOfficer
+        
+    }
 
 } // MyClass
 // Imheriate Object การสืบทอด class
@@ -29,5 +42,9 @@ print("After ==> \(myClass.strName)")
 
 //การเรียกใช้งาน Method Void 
 myClass.myVoidType()
+var intMyResult = myClass.myReturnType()
+
+var strMyStrudent = myClass.myOfficer(strTitle:"Title" , strdetail: "Detail")
+
 
 
