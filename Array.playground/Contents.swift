@@ -22,6 +22,14 @@ var douArrayName3 = [1.2, 1.3, 1.4]
 var douArrayNub4 = [Double]()
 douArrayNub4 = [2.1, 2.2, 2.3]
 
+//การเพ่ิมสมาชิกให้ Array
+print("intArrayNumber2 ==> \(intArrayNumber2)")
+intArrayNumber2.append(111)
+
+
+strArrayName2
+strArrayName2.append("doramon")
+
 
 
 
