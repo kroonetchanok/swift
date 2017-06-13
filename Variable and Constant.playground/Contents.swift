@@ -45,7 +45,7 @@ var douB = Double(intB)
 var answer2: Double = douA / douB
 
 var myStatus = true //Implicit
-var myStatus2: =Bool = false //Explicit
+var myStatus2: Bool = false //Explicit
 
 //print on Console ==> ถ้าเอา 5 บาท 6 เท่ากับ  11
 
